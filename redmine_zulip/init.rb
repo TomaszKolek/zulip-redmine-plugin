@@ -5,6 +5,7 @@ Redmine::Plugin.register :redmine_zulip do
     version '0.91'
     url 'https://github.com/zulip/zulip-redmine-plugin'
     author_url 'https://www.zulipchat.com/'
+    author_url 'https://www.zulip.org/'
 
     Rails.configuration.to_prepare do
         require_dependency 'zulip_hooks'
